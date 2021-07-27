@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE collection SYSTEM "catalog_19031558.dtd">
+<?xml-stylesheet type="text/css" href="catalog_19031558.css"?>
+<collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_19031558.xsd">
+    <store_name>Vector Volume</store_name>
+    <address>Bhaktapur</address>
+    <telephone>01-6616176</telephone>
+    <website>www.vectorvolume.com.np</website>
+    <logo></logo>
+    <tag_line>Let the Music Speak!</tag_line>
+    <songs>
+        <song id="s1">
+            <song_title>Title: Blinding Lights</song_title>
+            <genre>Genre: Electropop</genre>
+            <director>Director: Max Martin</director>
+            <producer>Producer: Max Martin</producer>
+            <writer>Writer:Ahmad Balshe</writer>
+            <singer>Singer: The Weeknd</singer>
+            <release_year>2019</release_year>
+        </song>
+        <song id="s2">
+            <song_title>Title: Dance Monkey</song_title>
+            <genre>Genre: pop</genre>
+            <director>Director: Whitney Houston</director>
+            <producer>Producer: Konstantin Kersting</producer>
+            <writer>Writer: Toni Watson</writer>
+            <singer>Singer: Tones and I</singer>
+            <release_year>2019</release_year>
+        </song>
+        <song id="s3">
+            <song_title>Title: Roses</song_title>
+            <genre>Genre: Dance</genre>
+            <director>Director: Carlos Phillips</director>
+            <producer>Producer: Fallen</producer>
+            <writer>Writer: Lee Stashenko</writer>
+            <singer>Singer: Saint Jhn</singer>
+            <release_year>2016</release_year>
+        </song>
+        <song id="s4">
+            <song_title>Title: Before You Go</song_title>
+            <genre>Genre: soft pop</genre>
+            <director>Director: Phil Plested</director>
+            <producer>Producer: TMS</producer>
+            <writer>Writer: Pete Kellehe</writer>
+            <singer>Singer: Lewis Capaldi</singer>
+            <release_year>2019</release_year>
+        </song>
+        <song id="s5">
+            <song_title>Title: Head &#38; Heart</song_title>
+            <genre>Genre: House</genre>
+            <director>Director: Applebaum</director>
+            <producer>Producer: KOLIDESCOPES</producer>
+            <writer>Writer: Daniel Dare</writer>
+            <singer>Singer: Joel Corry</singer>
+            <release_year>2020</release_year>
+        </song>
+        <song id="s6">
+            <song_title>Title: Don't Start Now</song_title>
+            <genre>Genre: Nu-disco</genre>
+            <director>Director: Caroline Ailin</director>
+            <producer>Producer: Ian Kirkpatrick</producer>
+            <writer>Writer: Ian Kirkpatrick</writer>
+            <singer>Singer: Dua Lipa</singer>
+            <release_year>2019</release_year>
+        </song>
+        <song id="s7">
+            <song_title>Title: Rockstar</song_title>
+            <genre>Genre: trap</genre>
+            <director>Director: Louis Bell</director>
+            <producer>Producer: Tank God</producer>
+            <writer>Writer: Austin Post</writer>
+            <singer>Singer: Post Malone</singer>
+            <release_year> 2017</release_year>
+        </song>
+        <song id="s8">
+            <song_title>Title: Own It</song_title>
+            <genre>Genre: Dancehall</genre>
+            <director>Director: Damini Ogulu</director>
+            <producer>Producer: FRED</producer>
+            <writer>Writer: Michael Omari</writer>
+            <singer>Singer: Stormzy</singer>
+            <release_year>2019</release_year>
+        </song>
+        <song id="s9">
+            <song_title>Title: Someone You Loved</song_title>
+            <genre>Genre: pop</genre>
+            <director>Director: Benjamin Kohn</director>
+            <producer>Producer: TMS</producer>
+            <writer>Writer: Samuel Romans</writer>
+            <singer>Singer: Lewis Capaldi</singer>
+            <release_year>2018</release_year>
+        </song>
+        <song id="s10">
+            <song_title>Title: Watermelon Sugar</song_title>
+            <genre>Genre: indie pop</genre>
+            <director>Director: Kid Harpoon</director>
+            <producer>Producer: Johnson</producer>
+            <writer>Writer: Mitch Rowland</writer>
+            <singer>Singer: Harry Styles</singer>
+            <release_year>2020</release_year>
+        </song>
+        <song id="s11">
+            <song_title>Title: Savage Love</song_title>
+            <genre>Genre: reggaeton</genre>
+            <director>Director: Philippe Greiss</director>
+            <producer>Producer: Jawsh 685</producer>
+            <writer>Writer: Joshua Nanai</writer>
+            <singer>Singer: Jason Derulo</singer>
+            <release_year>2020</release_year>
+        </song>
+        <song id="s12">
+            <song_title>Title: The Box</song_title>
+            <genre>Genre: trap</genre>
+            <director>Director: Aqeel Tate</director>
+            <producer>Producer: 30 Roc</producer>
+            <writer>Writer: Rodrick Moore</writer>
+            <singer>Singer: Roddy Ricch</singer>
+            <release_year>2020</release_year>
+        </song>
+        <song id="s13">
+            <song_title>Title: Say So</song_title>
+            <genre>Genre: bubblegum pop</genre>
+            <director>Director: Lydia Asrat</director>
+            <producer>Producer: Tyson Trax</producer>
+            <writer>Writer: Amala Zandile</writer>
+            <singer>Singer: Doja Cat</singer>
+            <release_year>2020</release_year>
+        </song>
+        <song id="s14">
+            <song_title>Title: Lonely</song_title>
+            <genre>Genre: pop</genre>
+            <director>Director: Finneas O'Connell</director>
+            <producer>Producer: Finneas</producer>
+            <writer>Writer: Benjamin Levin</writer>
+            <singer>Singer: Justin Bieber</singer>
+            <release_year>2020</release_year>
+        </song>
+        <song id="s15">
+            <song_title>Title: Adore You</song_title>
+            <genre>Genre: funk</genre>
+            <director>Director: Thomas Hull</director>
+            <producer>Producer: Kid Harpoon</producer>
+            <writer>Writer: Amy Allen</writer>
+            <singer>Singer: Harry Styles</singer>
+            <release_year>2019</release_year>
+            <lyrics>English</lyrics>
+        </song>
+        <song id="s16">
+            <song_title>Title: Breaking Me</song_title>
+            <genre>Genre: Deep house</genre>
+            <director>Director: Tobias Topic</director>
+            <producer>Producer: Tobias Topic</producer>
+            <writer>Writer: Molly Irvine</writer>
+            <singer>Singer: Topic</singer>
+            <release_year>2019</release_year>
+            <label>Univesal</label>
+        </song>
+        <song id="s17">
+            <song_title>Title: Rain on Me</song_title>
+            <genre>Genre: electropop</genre>
+            <director>Director: Alexander Ridha</director>
+            <producer>Producer: BloodPop</producer>
+            <writer>Writer: Stefani Germanotta</writer>
+            <singer>Singer: Lady Gaga</singer>
+            <release_year>2020</release_year>
+            <composer>Ariana Grande</composer>
+        </song>
+        <song id="s18">
+            <song_title>Title: Rover</song_title>
+            <genre>Genre: pop</genre>
+            <director>Director: Leonard Rwodzi</director>
+            <producer>Producer: Relyt</producer>
+            <writer>Writer: Leonard Rwodzi</writer>
+            <singer>Singer: S1mba</singer>
+            <release_year> 2019</release_year>
+            <album>Marauder</album>
+        </song>
+        <song id="s19">
+            <song_title>Title: Memories</song_title>
+            <genre>Genre: pop</genre>
+            <director>Director: The Strangerz</director>
+            <producer>Producer: The Monsters</producer>
+            <writer>Writer: Adam Levine</writer>
+            <singer>Singer: Maroon 5</singer>
+            <release_year>2019</release_year>
+            <guitarist>James Valentine</guitarist>
+        </song>
+    </songs>
+</collection>

@@ -1,0 +1,141 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="collection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="store_name" />
+                <xs:element name="address" />
+                <xs:element name="telephone" />
+                <xs:element name="website" />
+                <xs:element name="logo" />
+                <xs:element name="tag_line" />
+                <xs:element ref="songs" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="songs">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="song" minOccurs="1" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="song">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="song_title" />
+                <xs:element ref="genre" />
+                <xs:element ref="director" />
+                <xs:element ref="producer" />
+                <xs:element ref="writer" />
+                <xs:element ref="singer" />
+                <xs:element ref="release_year" />
+                <xs:element ref="lyrics" minOccurs="0" maxOccurs="1" />
+                <xs:element ref="label" minOccurs="0" maxOccurs="1" />
+                <xs:element ref="composer" minOccurs="0" maxOccurs="1" />
+                <xs:element ref="album" minOccurs="0" maxOccurs="1" />
+                <xs:element ref="guitarist" minOccurs="0" maxOccurs="1" />
+            </xs:sequence>
+            <xs:attribute name="id" />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="song_title">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[A-Z].*" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="genre">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[A-Za-z].*" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="director">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[A-Za-z].*" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="producer">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[A-Z0-9].*" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="writer">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[A-Z].*" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+
+    <xs:element name="singer">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[A-Z].*" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="release_year">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="lyrics">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="English" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="label">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Univesal" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="composer">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Ariana Grande" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="album">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Marauder" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="guitarist">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="James Valentine" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+</xs:schema>

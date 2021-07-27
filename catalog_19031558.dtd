@@ -1,0 +1,24 @@
+<!ELEMENT collection (store_name,address,telephone,website,logo,tag_line,songs)>
+<!ATTLIST collection xmlns:xsi CDATA #REQUIRED>
+<!ATTLIST collection xsi:noNamespaceSchemaLocation CDATA #REQUIRED>
+<!ELEMENT store_name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+<!ELEMENT logo (#PCDATA)>
+<!ELEMENT tag_line (#PCDATA)>
+<!ELEMENT songs (song+)>
+<!ELEMENT song (song_title,genre,director,producer,writer,singer,release_year, (lyrics|label|composer|album|guitarist)*)>
+<!ELEMENT song_title (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT producer (#PCDATA)>
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT singer (#PCDATA)>
+<!ELEMENT release_year (#PCDATA)>
+<!ATTLIST song id CDATA #REQUIRED>
+<!ELEMENT lyrics (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!ELEMENT composer (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+<!ELEMENT guitarist (#PCDATA)> 
